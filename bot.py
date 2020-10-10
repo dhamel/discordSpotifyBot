@@ -44,4 +44,4 @@ async def on_message(message):
 
         await message.channel.send('https://www.youtube.com/watch?v=' + str(videoId))
 
-client.run('NzYxMDczNDQ1NTUwODE3MzAx.X3VS4Q.YUor3ZkNPlpSzs5NG4HICVY3Ziw')
+client.run(secrets.discordKey)
